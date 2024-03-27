@@ -1,0 +1,326 @@
+/*
+Template Name:Shop Com
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.center_home{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.center_1l{
+border:3px solid #ddd;
+ }
+.center_1l h5{
+padding:15px 15px 0px 15px;
+ }
+.center_1l h5 i{
+ font-size:16px;
+ margin-right:5px;
+ }
+.center_1l ul li a{
+display:block;
+font-size:16px; 
+border-bottom:1px solid #ddd;
+padding:15px;
+color:#666;
+ }
+.center_1l ul li a:hover{
+color:#57b846;
+ }
+.center_1l ul li  a .span_1 i{
+margin-right:5px;
+font-size:14px; 
+ }
+.center_1l ul li  a .span_2 i{
+font-size:10px;
+color:#999; 
+ }
+ 
+.fade-carousel {
+    position: relative;
+    min-height: 530px;
+}
+.fade-carousel .carousel-inner .item {
+    min-height: 530px;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 4px;
+    opacity: .8;
+}
+.fade-carousel .carousel-indicators > li.active {
+  opacity: 1;
+}
+
+.hero h5{
+ background:#333;
+ padding:10px;
+ width:20%;
+ text-align:center;
+ }
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+	width:100%;
+    top: 50%;
+    left:50%;
+	padding:20px 15px;
+    z-index: 2;
+    color: #fff;
+    text-transform:capitalize;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+	-webkit-transform: translate3d(-50%,-50%,0);
+	-moz-transform: translate3d(-50%,-50%,0);
+	-ms-transform: translate3d(-50%,-50%,0);
+	-o-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d1573;
+    opacity: 1;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  min-height: 530px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+      background-image: url(../img/2.jpg);
+}
+.fade-carousel .slides .slide-2 {
+    background-image: url(../img/3.jpg);
+}
+.fade-carousel .slides .slide-3 {
+      background-image: url(../img/4.jpg);
+}
+#center .carousel-indicators{
+  bottom:0;
+  }
+.fade-carousel .carousel-indicators > li{
+      background: #fff;
+	  border-color: #fff;
+	  width:11px;
+	  height:11px;
+  }
+.fade-carousel .carousel-indicators > li.active{
+      width:11px;
+	  height:11px;
+	  background:#57b846;
+	  border-color:#57b846;
+  }
+
+.center_2i h5 i{
+ margin-right:5px;
+ font-size:14px;
+  }
+.center_2i{
+ border-left:1px solid #ddd;
+ border-bottom:1px solid #ddd;
+ border-top:1px solid #ddd;
+ padding:15px;
+ }
+.center_2{
+margin-left:15px;
+margin-right:15px;
+margin-top:30px; 
+ }
+.center_3{
+margin-top:30px; 
+ }
+.center_3l1 .span_1{
+ margin-top:15px;
+ display:block;
+ color:#FFCC66;
+ }
+.center_3l1 .span_2{
+margin-right:20px;
+text-decoration:line-through;
+ }
+.center_3l1 .button i{
+margin-right:5px; 
+ }
+.center_3l1{
+border:1px solid #ddd;
+padding:20px 15px;
+margin-top:30px; 
+ }
+.pager{
+margin-bottom:0; 
+ }
+.center_3l1i{
+margin-top:15px; 
+border-bottom:1px solid #ddd;
+padding-bottom:15px;
+ }
+.center_3l1 .form-control{
+ margin-top:15px;
+ border-radius:0;
+ }
+.mga img{
+margin-left:auto;
+margin-right:auto; 
+ }
+.mga p{
+font-size:16px; 
+ }
+.center_3l1io ul li {
+display:inline-block;
+margin-top:5px; 
+font-size:16px;
+ }
+.center_3l1io ul li a{
+padding:8px;
+display:block;
+background:#f4f4f4;
+ }
+.center_3l1io ul li a:hover{
+ background:#57b846;
+ color:#fff;
+ }
+ 
+.center_3r1{
+ border-bottom:3px solid #57b846;
+ padding-bottom:15px;
+ margin-bottom:15px;
+ }
+.center_3r2i .span_1{
+ margin-top:15px;
+ display:block;
+ color:#FFCC66;
+ }
+.center_3r2i .span_2{
+margin-right:20px;
+text-decoration:line-through;
+ }
+.center_3r2i .button i{
+margin-right:5px; 
+ }
+.center_3r1{
+margin-top:30px; 
+ }
+ 
+.center_3r2 .center_3r2i {
+background:#6cd4ae1f;
+padding-bottom:20px; 
+ }
+.center_3r2 .col-sm-4  .center_3r2i{
+background:none;
+padding-bottom:0;  
+ }
+/*********************center_home****************/
+
+
+@media screen and (max-width : 767px){
+.center_1r {
+margin-top:20px;
+text-align:center;
+ }
+.hero h5{
+ width:70%;
+ margin:auto;
+ }
+.hero h2{
+font-size:30px;
+ }
+.center_2i{
+margin-bottom:15px;
+border:1px solid #ddd; 
+ }
+.center_3l1ir {
+margin-top:15px; 
+ }
+.center_3r {
+margin-top:20px; 
+ }
+.center_3r1 {
+text-align:center; 
+ }
+.center_3r2i {
+margin-bottom:15px; 
+ }
+.center_3l1ir {
+text-align:center; 
+ }
+.center_3r3l {
+margin-bottom:15px; 
+text-align:center;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.center_2i h5{
+ font-size:14px;
+ }
+.center_3l1  h4{
+ font-size:18px;
+ }
+.hero h5{
+width:40%;
+ }
+.center_3l1 .span_2{
+margin-right:10px;
+font-size:15px; 
+ }
+.center_3l1 .span_3{
+font-size:15px; 
+ }
+.center_3r2i .span_2{
+ margin-right:5px;
+font-size:15px; 
+ }
+.center_3r2i .span_3{
+ margin-right:10px;
+font-size:15px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.center_2i h6{
+ font-size:13px;
+ }
+ }
+@media (min-width:1201px) and (max-width:1340px) {
+
+ }
+
+
